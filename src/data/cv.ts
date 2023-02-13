@@ -68,7 +68,7 @@ export const cv: (SingleCvEntry)[] = [
       'Developed Polymer web componets (discontinued)',
     ],
     location: 'Dresden, Germany',
-    significant: true,
+    significant: false,
     current: false,
   },
   {
@@ -167,7 +167,7 @@ export const cv: (SingleCvEntry)[] = [
     ],
     link: 'https://www.company.com',
     location: 'Dresden, Germany',
-    significant: true,
+    significant: false,
   },
   {
     title: 'Military service',
@@ -180,6 +180,6 @@ export const cv: (SingleCvEntry)[] = [
     ],
     link: 'https://www.company.com',
     location: 'Gotha, Germany',
-    significant: true,
+    significant: false,
   },
 ];

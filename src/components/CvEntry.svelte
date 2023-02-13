@@ -24,6 +24,15 @@
           <School />
         {/if}
         <h5>{entry.title}</h5>
+        {#if entry.current}
+          <div
+            class="inline hidden lg:inline-flex rounded-full font-semibold 
+            text-green-700 outline-green-700 dark:text-green-400 dark:outline-green-400 
+            outline outline-1 py-1 px-2 text-xs"
+          >
+            Aktuell
+          </div>
+        {/if}
       </div>
       <div class="font-light italic md:text-right">
         {#if !entry.endDate}

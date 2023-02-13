@@ -3646,6 +3646,11 @@ html {
   color: rgb(30 41 59 / var(--tw-text-opacity));
 }
 
+.text-green-700 {
+  --tw-text-opacity: 1;
+  color: rgb(21 128 61 / var(--tw-text-opacity));
+}
+
 .opacity-50 {
   opacity: 0.5;
 }
@@ -3672,6 +3677,10 @@ html {
 
 .outline-green-500 {
   outline-color: #22c55e;
+}
+
+.outline-green-700 {
+  outline-color: #15803d;
 }
 
 .drop-shadow-md {
@@ -3934,6 +3943,15 @@ h5 {
     --tw-text-opacity: 1;
     color: rgb(203 213 225 / var(--tw-text-opacity));
   }
+
+  .dark\:text-green-400 {
+    --tw-text-opacity: 1;
+    color: rgb(74 222 128 / var(--tw-text-opacity));
+  }
+
+  .dark\:outline-green-400 {
+    outline-color: #4ade80;
+  }
 }
 
 @media (min-width: 640px) {
@@ -3969,6 +3987,10 @@ h5 {
 }
 
 @media (min-width: 1024px) {
+  .lg\:inline-flex {
+    display: inline-flex;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }

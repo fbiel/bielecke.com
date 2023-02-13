@@ -19,11 +19,6 @@
         />
       </div>
       <div>
-        <!-- <div
-          class="inline rounded-full font-semibold text-green-500 outline-green-500 outline outline-1 py-1 px-2 text-xs"
-        >
-          Aktuell verfügbar
-        </div> -->
         <div class="text-xl text-emerald-800 dark:text-sky-400 italic">
           Hi, my name is
         </div>
