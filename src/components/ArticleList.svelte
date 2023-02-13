@@ -14,6 +14,5 @@
 >
   {#each articles as article}
     <ArticleCard article={article.attributes} />
-    <ArticleCard article={article.attributes} />
   {/each}
 </div>
