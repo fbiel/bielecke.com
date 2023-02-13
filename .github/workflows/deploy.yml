@@ -13,14 +13,14 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install and Build 🔧
+        env:
+          VITE_CMS: https://cms.k-7.eu
+          VITE_BEARER: ${{secrets.VITE_BEARER}}
         run: |
           npm ci
           npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
-        env:
-          VITE_CMS: https://cms.k-7.eu
-          VITE_BEARER: ${{secrets.VITE_BEARER}}
         with:
           folder: dist
