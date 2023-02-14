@@ -13,7 +13,7 @@
   });
 </script>
 
-<div class="container mx-auto max-w-5xl">
+<div class="container mx-auto max-w-5xl px-2">
   <ul
     class="list-none border rounded-xl dark:divide-slate-700 divide-y divide-slate-300 border-opacity-25 bg-slate-200 dark:bg-slate-800 shadow-xl border-slate-600"
   >

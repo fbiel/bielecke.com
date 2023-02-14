@@ -30,7 +30,7 @@
             text-green-700 outline-green-700 dark:text-green-400 dark:outline-green-400 
             outline outline-1 py-1 px-2 text-xs"
           >
-            Aktuell
+            Current
           </div>
         {/if}
       </div>
